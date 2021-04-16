@@ -152,7 +152,6 @@ export interface Payload {
  * Specifies a GET query with parameters.
  */
 export interface Query {
-
   /**
    * Uniquely identifies the query in the store
    */
@@ -261,7 +260,6 @@ export interface SortingParam {
 }
 
 export interface QueryResult extends StoreQuery {
-
   /**
    * Holds the resources from the query results. The field is dynamically populated by denormalizing
    * StoreQuery.queryResults with the corresponding resources from the store.
